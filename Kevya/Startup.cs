@@ -94,7 +94,7 @@ namespace Kevya
                 var service = botConfig.Services.FirstOrDefault(s => s.Type == ServiceTypes.Endpoint && s.Name == environment);
                 if (!(service is EndpointService endpointService))
                 {
-                    throw new InvalidOperationException($"The .bot file does not contain an endpoint with name '{environment}'.");
+                    throw new InvalidOperationException($"The .bot file does not contain an endpoint with a name '{environment}'.");
                 }
 
                 options.CredentialProvider = new SimpleCredentialProvider(endpointService.AppId, endpointService.AppPassword);
