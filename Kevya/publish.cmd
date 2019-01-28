@@ -1,0 +1,1 @@
+az bot publish --resource-group KevyaQABot -n KevyaQABot --subscription 69a36c48-97ad-469d-b166-3f7c7dbaf26a -v v4 --proj-name "Kevya.csproj" 
