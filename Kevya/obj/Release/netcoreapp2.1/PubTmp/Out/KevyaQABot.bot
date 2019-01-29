@@ -1,0 +1,121 @@
+{
+    "name": "KevyaQABot",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "id": "49",
+            "name": "KevyaQABot",
+            "tenantId": "dc91a4f8-7b3f-41f5-a0b3-e6a58770c92b",
+            "subscriptionId": "69a36c48-97ad-469d-b166-3f7c7dbaf26a",
+            "resourceGroup": "KevyaQABot",
+            "serviceName": "KevyaQABot",
+            "appId": "e0263769-35b9-49fa-a8e2-fff7d609f0bc"
+        },
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "id": "30",
+            "name": "production",
+            "appId": "e0263769-35b9-49fa-a8e2-fff7d609f0bc",
+            "appPassword": "3T36NE0oPZTTKHFPdUbuow==!tNfhqsO7ncwFyucsmu5qAG+f6qlFG3f+j+VTFv55TRE=",
+            "endpoint": "https://evyaotfl0p.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "dc91a4f8-7b3f-41f5-a0b3-e6a58770c92b",
+            "subscriptionId": "69a36c48-97ad-469d-b166-3f7c7dbaf26a",
+            "resourceGroup": "KevyaQABot",
+            "name": "KevyaQABotduk2kh",
+            "serviceName": "KevyaQABotduk2kh",
+            "instrumentationKey": "sQ5eta4WOB1aEd1TprNtBQ==!RXJ+kjqVPKXm61IwIDnYbqLlTU9H9n7EUNxt3Xg5smUu5Qm+FeVssaKn1Z068Mly",
+            "applicationId": "2749e84a-3848-4e72-88c0-8ed0dd074bd8",
+            "apiKeys": {},
+            "id": "3"
+        },
+        {
+            "type": "blob",
+            "id": "2",
+            "name": "evyaotkadz",
+            "serviceName": "evyaotkadz",
+            "tenantId": "dc91a4f8-7b3f-41f5-a0b3-e6a58770c92b",
+            "subscriptionId": "69a36c48-97ad-469d-b166-3f7c7dbaf26a",
+            "resourceGroup": "KevyaQABot",
+            "connectionString": "VBgFVZeoVDEd4LS0NlTL9Q==!LedaXnuT9pYF0ER6DhGrEFo1C0Oi8s/NNvoqsrO1sWNOPTHx4uUW4LFASTCDcvQ/nFPbrcbct/h0UUaxqEeuvFiJ9o+xFe2Sx+VwUSFdbmghUkSO5VpmEvfwIEP2X2e8yhGz7tBML6oTiy/6vV1LxqqRqk1COj4DNakZ+BvWtH/Y+Mng7Q0j74GEWPKAKK9g4yiIFPoLkeKDk9vK7qhn28MutoidNfZX9DUGl8mHLUpfAlYrNsraxEVVE3krC1Lr",
+            "container": "transcripts"
+        },
+        {
+            "type": "cosmosdb",
+            "id": "8",
+            "name": "kevyaqabot",
+            "serviceName": "kevyaqabot",
+            "tenantId": "dc91a4f8-7b3f-41f5-a0b3-e6a58770c92b",
+            "subscriptionId": "69a36c48-97ad-469d-b166-3f7c7dbaf26a",
+            "resourceGroup": "KevyaQABot",
+            "endpoint": "https://kevyaqabot.documents.azure.com:443/",
+            "key": "q/vt1aI3oAFSlaJynS4cIg==!k5arVNB+7bpIdtQd3C61dQe1WIyYLuY0kU0Xnhr85IU4dc01Ur7w2tge5QnzFGuruDdOIXQGJYbPqvycybXwL36NiyvabWJG9utjjumXR2HjsvuE1gQ3SLNtUXiPZQY/",
+            "database": "botstate-db",
+            "collection": "botstate-collection"
+        },
+        {
+            "type": "luis",
+            "name": "KevyaQABot_General",
+            "appId": "e673ca94-a3d1-4dfb-9587-9f413248ee37",
+            "authoringKey": "zk5RqfT6UhYSu/JgKtiynw==!DJ1CA+kG5/aCxsOcBs44frHvcisBDIPA0c8ByLjtTg3bhoybHhyHUR1x4llGQWH6",
+            "subscriptionKey": "3so5CYKSyUxflhLDagKqWA==!J9W1FvmJ9KIS14VeffPS3usXGOCfhlav38MNPCJHU44XMdS7HXDuytNNdLoayB+9",
+            "version": "0.1",
+            "region": "westus",
+            "id": "general"
+        },
+        {
+            "type": "qna",
+            "name": "FAQ",
+            "id": "faq",
+            "kbId": "b9e11c2e-92f6-47f8-870d-ac93a7f8d1d1",
+            "subscriptionKey": "ZeASVTbLlJ6sIsPe9hHflA==!56hSeMyMAK/jjAifh2w+Meh0k67/S4IHdNWoV6DuGnd0Mc0oh6n30wkq9/P4wcdF",
+            "endpointKey": "Ke9N7hNQA6I1VVJbjXAlqg==!tem08okCPCGv93autQJmTJwwpE2zJdQJZeunfn67Ftlmrm8jdgjKTzemBJncPArH",
+            "hostname": "https://kevyaqabot-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "qna",
+            "name": "ChitChat",
+            "id": "chitchat",
+            "kbId": "8a2b34bd-0577-4239-ba0c-53d6f2c550c6",
+            "subscriptionKey": "yOsic8xKnpkXbpQPrYxgvg==!JQp6+RVWYy93E2engffIs3ODMtAgGOpfInCLVCeFCwsn012C7KXEw51CXGzuBs7i",
+            "endpointKey": "vsQ0gYsRNuyf/I27E70Bhg==!btow8MzqBWrfuxTt08EFYW2mUch22sCGpz/asdPGQrOrunwCtgKSPL05/Vz0rUkp",
+            "hostname": "https://kevyaqabot-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "dispatch",
+            "serviceIds": [
+                "general",
+                "faq",
+                "chitchat"
+            ],
+            "name": "KevyaQABot_Dispatch",
+            "appId": "040a8504-8bec-48bc-97a3-b13b1a5967da",
+            "authoringKey": "e3xY+RJf0ddBb+oSYNZVQg==!m5XxdTxDBP/C5GWQ9FnULLgcHAWlgE0Qt1qfulAklM8tUpnvEQJIp/2LziB52/Fi",
+            "subscriptionKey": "yn3Alz0StFSRW2lUy8DaFQ==!Yr5+iDbrxHq45t+IA+1+1PKx5sdr3yZOYrg/riBfifgIx7+0flyv+vr/HUoh/LVH",
+            "version": "Dispatch",
+            "region": "westus",
+            "id": "dispatch"
+        },
+        {
+            "type": "endpoint",
+            "name": "production",
+            "appId": "e0263769-35b9-49fa-a8e2-fff7d609f0bc",
+            "appPassword": "MhZHJhc+B9rJ44Dia82Q5Q==!EF7/Wex4X9KgOgEobQ329B/m/8/oKjpz/RiTYcy37T8=",
+            "endpoint": "https://evyaotfl0p.azurewebsites.net/api/messages",
+            "id": "150"
+        }
+    ],
+    "padlock": "M8pnRCpM03VcLOD9tR20Mw==!tMKwOzTs4mQbbLw4HshfaK/IDra2jhgHnnOpsns/zTP4LZ4fhfYGXR/HejKgelNP",
+    "version": "2.0"
+}

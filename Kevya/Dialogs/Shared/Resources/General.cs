@@ -16,6 +16,7 @@ namespace Luis
         public string AlteredText;
         public enum Intent
         {
+            Greeting,
             Cancel,
             Confirm,
             Escalate,

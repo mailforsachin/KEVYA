@@ -118,48 +118,44 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CANCELLED" xml:space="preserve">
-    <value>Ok, let's start over.</value>
+    <value>Ok, let's start again. How can I help you today?</value>
   </data>
   <data name="COMPLETED" xml:space="preserve">
-    <value>What else can I help you with?</value>
+    <value>Thank you for contacting Kevya</value>
   </data>
   <data name="CONFUSED" xml:space="preserve">
-    <value>I'm sorry, I'm not able to help with that.</value>
+    <value>Could you please try to rephrase the question? Using different words can sometimes help.</value>
   </data>
   <data name="ERROR" xml:space="preserve">
     <value>Sorry, it looks like something went wrong.</value>
   </data>
   <data name="GREETING" xml:space="preserve">
-    <value>Hi there!</value>
+    <value>{"messages":
+	[
+		{"message":"Hello {username}! I am Kevya Virtual Assistant. Ask me any question related to following services and I will be happy to assist you"},
+{"message":"Hello {username}! and thanks for trying this experience! I am a Virtual Assistant, always eager to learn new ways to support you better.
+You can always type 'help' in the chat window to visualize a summary of my current capabilities. You can cancel a process/conversation at any time by typing 'Cancel' or 'Exit'.
+So, how can I help you today? "},
+{"message":"Hello {username}! I'm your new Virtual Assistant. I can help you with multiple tasks related to tickets, issue resolution."},
+{"message":"Hey {username}! Greetings from NTT. I can assist you for various tasks such as creating new tickets, solving issues. Try me!"},
+{"message":"Hello {username}! I'm an Intelligent Assistant. Let's get started, I am happy to help you with multiple tasks such as tickets, issue resolution"},
+{"message":"Hi {username}, welcome to NTT! I'm your Virtual Friend. Let me help you get started. Bring your inquiries related to tickets or issues you are stuck with to me. How may I help?"}]}</value>
   </data>
   <data name="GREETING_WITH_NAME" xml:space="preserve">
-    <value>Hey, {0}!</value>
-  </data>
-  <data name="HELP_BTN_TEXT_1" xml:space="preserve">
-    <value>Test LUIS</value>
-  </data>
-  <data name="HELP_BTN_TEXT_2" xml:space="preserve">
-    <value>Test QnA Maker</value>
-  </data>
-  <data name="HELP_BTN_TEXT_3" xml:space="preserve">
-    <value>Learn more</value>
-  </data>
-  <data name="HELP_BTN_VALUE_1" xml:space="preserve">
-    <value>Talk to a human</value>
-  </data>
-  <data name="HELP_BTN_VALUE_2" xml:space="preserve">
-    <value>What is the Enterprise Bot Template?</value>
-  </data>
-  <data name="HELP_BTN_VALUE_3" xml:space="preserve">
-    <value>https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0</value>
+    <value>Hey!</value>
   </data>
   <data name="HELP_TEXT" xml:space="preserve">
-    <value>This card can be used to display information to help your user interact with your bot. The buttons below can be used for sample queries or links to external sites.</value>
+    <value>• I am a Virtual Assistant and I am continuously in training to enhance my skills.
+Currently I can help you by answering inquiries related to IT Internal Policies, providing support for Frequently Asked IT Questions, Opening and Providing Status Updates for Request and Incident Tickets.
+• 
+You can ask me questions such as 'Can I get a status update on an open ticket?' or 'What is the desktop replacement policy' and even ask me to help you with desktop issues by saying 'My computer is slow'.
+ 
+• You can always cancel or exit any process or conversation by typing 'Cancel' or 'Exit' in the chat window.</value>
   </data>
   <data name="HELP_TITLE" xml:space="preserve">
-    <value>HELP</value>
+    <value>Kevya Virtual Assistant Help</value>
   </data>
-  <data name="INTRO_PATH" xml:space="preserve">
-    <value>.\Dialogs\Main\Resources\Intro.json</value>
+  <data name="INTRO_TEXT" xml:space="preserve">
+    <value>I am Kevya, a Virtual Assistant. I can help you with Ticket Creation, Ticket Status, IT Policy Documents, KB Articles and announcements. You can ask me things like 'Help me with my ticket status', 'How to add people or group to outlook etc.' You can cancel or exit any flow by typing  'Cancel' or 'Exit' command.</value>
   </data>
 </root>
