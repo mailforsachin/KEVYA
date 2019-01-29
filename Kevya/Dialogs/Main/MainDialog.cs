@@ -64,6 +64,14 @@ namespace Kevya.Dialogs.Main
                     // switch on general intents
                     switch (generalIntent)
                     {
+                        case General.Intent.Greeting:
+                            {
+                                // send greeting response
+                                var GreetingResponse = MainResponses.Greeting.Replace("{username}", dc.Context.Activity.From.Id + dc.Context.Activity.From.Name);
+                                await _responder.ReplyWith(dc.Context, GreetingResponse);
+                                break;
+                            }
+
                         case General.Intent.Cancel:
                             {
                                 // send cancelled response

@@ -5,6 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Dialogs\Main\Resources\Intro.de.json" />
+    <Content Remove="Dialogs\Main\Resources\Intro.es.json" />
+    <Content Remove="Dialogs\Main\Resources\Intro.fr.json" />
+    <Content Remove="Dialogs\Main\Resources\Intro.it.json" />
+    <Content Remove="Dialogs\Main\Resources\Intro.zh.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Dialogs\Main\Resources\MainStrings.de.resx" />
+    <EmbeddedResource Remove="Dialogs\Main\Resources\MainStrings.es.resx" />
+    <EmbeddedResource Remove="Dialogs\Main\Resources\MainStrings.fr.resx" />
+    <EmbeddedResource Remove="Dialogs\Main\Resources\MainStrings.it.resx" />
+    <EmbeddedResource Remove="Dialogs\Main\Resources\MainStrings.zh.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AdaptiveCards" Version="1.1.0" />
     <PackageReference Include="Autofac.WebApi2" Version="4.2.0" />
     <PackageReference Include="Microsoft.ApplicationInsights" Version="2.8.1" />
