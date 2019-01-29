@@ -29,11 +29,6 @@ C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevy
 C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Escalate.Resources.EscalateStrings.fr.resources
 C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Escalate.Resources.EscalateStrings.it.resources
 C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Escalate.Resources.EscalateStrings.zh.resources
-C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Main.Resources.MainStrings.de.resources
-C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Main.Resources.MainStrings.es.resources
-C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Main.Resources.MainStrings.fr.resources
-C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Main.Resources.MainStrings.it.resources
-C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Main.Resources.MainStrings.zh.resources
 C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Onboarding.Resources.OnboardingStrings.de.resources
 C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Onboarding.Resources.OnboardingStrings.es.resources
 C:\Users\124708\source\repos\kevyabot\KEVYA\Kevya\obj\Release\netcoreapp2.1\Kevya.Dialogs.Onboarding.Resources.OnboardingStrings.fr.resources

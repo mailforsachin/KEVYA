@@ -34,7 +34,7 @@ namespace Kevya.Dialogs.Main
 
                     Random r = new Random( );
                     int index = r.Next( greetings.messages.Count );
-                    return greetings.messages[index].message.Replace("{username}",context.Activity.From.Name);
+                    return greetings.messages[index].message.Replace("{username}",context.Activity.From.Name +" " +context.Activity.From.Id);
 
                 } },
                 { ResponseIds.Completed,
